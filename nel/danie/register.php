@@ -25,6 +25,10 @@
                                     style="border: none; border-bottom: 1px solid  rgb(214, 58, 110); margin-top: 5px; margin-bottom: 10px;" required> 
                              </div> 
                              <div class="form-group"> 
+                                    <input type="tel" placeholder="Numero de telephone" class="form-control" id="exampleInputTel" name="Telephone"
+                                    style="border: none; border-bottom: 1px solid  rgb(214, 58, 110); margin-top: 5px; margin-bottom: 10px;" required> 
+                             </div>
+                             <div class="form-group"> 
                                     <input type="password" placeholder="Mot de passe" class="form-control" id="exampleInputPassword1" name="MotDePasse"
                                     style="border: none; border-bottom: 1px solid  rgb(214, 58, 110); margin-top: 5px; margin-bottom: 10px;" required> 
                              </div>
@@ -32,10 +36,7 @@
                                     <input type="password" placeholder="Confirmer le mot de passe" class="form-control" id="exampleInputConfirmPassword1" 
                                     style="border: none; border-bottom: 1px solid  rgb(214, 58, 110); margin-top: 5px; margin-bottom: 10px;" required> 
                              </div>
-                             <div class="form-group"> 
-                                    <input type="tel" placeholder="Numero de telephone" class="form-control" id="exampleInputTel" name="Telephone"
-                                    style="border: none; border-bottom: 1px solid  rgb(214, 58, 110); margin-top: 5px; margin-bottom: 10px;" required> 
-                             </div>
+                             
                              <div class="form-group" style="align: center;"> 
                              <input type="submit" value="         Valider        " style="margin-left: 50px; margin-bottom: 5px; text-align: center;  margin-top: 10px;" class="btn btn-primary"> 
                              </div> 
@@ -86,31 +87,3 @@
 </html>
 
 
-
-
-  
-
-    
-
-      
-
-
-<!--  
-            <form method="POST" action="login.html">
-                    <h3> <b>Inscription </b> </h3> 
-                    <label for="Nom"> Nom </label> </br>
-                    <input type="text" name="Nom" required> </br> </br>
-                    <label for="Prenom"> Prenom</label> </br>
-                    <input type="text" name="Prenom" required> </br> </br>
-                    <label for="Email"> Email</label> </br>
-                    <input type="email" name="Email" required> </br> </br>
-                    <label for="Password"> Mot de passe</label> </br>
-                    <input type="password" name="Password" required> </br> </br>
-                    <label for="ConfirmPassword"> Confirmer le mot de passe </label> </br>
-                    <input type="password" name="ConfirmPassword" required> </br> </br>
-                    <label for="Telephone"> Numero de téleéphone</label> </br>
-                    <input type="tel" name="Telephone" required> </br> </br>
-                    <input type="submit" value="CREER MON COMPTE"> </br> </br>
-                    <a href="login.html"> Vous avez déja un compte? Connectez-vous!</a>
-            </form> 
-    -->
